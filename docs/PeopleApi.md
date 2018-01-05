@@ -42,11 +42,11 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **Delete**
-> Delete($personId)
+> Delete($personID)
 
 Remove a person from the system. Only an admin can remove a person.
 
-Remove a person from the system. Only an admin can remove a person. Specify the person ID in the personId parameter in the URI. 
+Remove a person from the system. Only an admin can remove a person. Specify the person ID in the personID parameter in the URI. 
 
 
 ### Parameters
@@ -97,11 +97,11 @@ This endpoint does not need any parameter.
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **GetPerson**
-> Person GetPerson($personId)
+> Person GetPerson($personID)
 
 Shows details for a person, by ID.
 
-Shows details for a person, by ID. Certain fields, such as status or lastActivity, will only be displayed for people within your organization or an organzation you manage. Specify the person ID in the personId parameter in the URI. 
+Shows details for a person, by ID. Certain fields, such as status or lastActivity, will only be displayed for people within your organization or an organzation you manage. Specify the person ID in the personID parameter in the URI. 
 
 
 ### Parameters
@@ -126,7 +126,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **ListPeople**
-> People ListPeople($id, $email, $displayName, $max, $orgId)
+> People ListPeople($id, $email, $displayName, $max, $orgID)
 
 List people in your organization.
 
@@ -163,7 +163,7 @@ Name | Type | Description  | Notes
 
 Update details for a person, by ID.
 
-Update details for a person, by ID. Specify the person ID in the personId parameter in the URI. Only an admin can update a person details. Email addresses for a person cannot be changed via the Cisco Spark API. Include all details for the person. This action expects all user details to be present in the request. A common approach is to first GET the person's details, make changes, then PUT both the changed and unchanged values.       
+Update details for a person, by ID. Specify the person ID in the personID parameter in the URI. Only an admin can update a person details. Email addresses for a person cannot be changed via the Cisco Spark API. Include all details for the person. This action expects all user details to be present in the request. A common approach is to first GET the person's details, make changes, then PUT both the changed and unchanged values.       
 
 
 ### Parameters

@@ -8,7 +8,7 @@ Method | HTTP request | Description
 
 
 # **GetContent**
-> GetContent($contentId)
+> GetContent($contentID)
 
 Get File contents.
 

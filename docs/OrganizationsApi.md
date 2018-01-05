@@ -9,11 +9,11 @@ Method | HTTP request | Description
 
 
 # **GetOrganization**
-> Organization GetOrganization($orgId)
+> Organization GetOrganization($orgID)
 
 Shows details for an organization, by ID.
 
-Shows details for an organization, by ID. Specify the org ID in the orgId parameter in the URI. 
+Shows details for an organization, by ID. Specify the org ID in the orgID parameter in the URI. 
 
 
 ### Parameters

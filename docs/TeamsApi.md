@@ -41,11 +41,11 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **DeleteTeam**
-> DeleteTeam($teamId)
+> DeleteTeam($teamID)
 
 Deletes a team, by ID.
 
-Deletes a team, by ID. Specify the team ID in the teamId parameter in the URI. 
+Deletes a team, by ID. Specify the team ID in the teamID parameter in the URI. 
 
 
 ### Parameters
@@ -70,11 +70,11 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **GetTeam**
-> Team GetTeam($teamId)
+> Team GetTeam($teamID)
 
 Shows details for a team, by ID.
 
-Shows details for a team, by ID. Specify the team ID in the teamId parameter in the URI. 
+Shows details for a team, by ID. Specify the team ID in the teamID parameter in the URI. 
 
 
 ### Parameters
@@ -132,7 +132,7 @@ Name | Type | Description  | Notes
 
 Updates details for a team, by ID.
 
-Updates details for a team, by ID. Specify the team ID in the teamId parameter in the URI. 
+Updates details for a team, by ID. Specify the team ID in the teamID parameter in the URI. 
 
 
 ### Parameters

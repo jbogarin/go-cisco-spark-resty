@@ -41,11 +41,11 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **DeleteWebhook**
-> DeleteWebhook($webhookId)
+> DeleteWebhook($webhookID)
 
 Deletes a webhook, by ID.
 
-Deletes a webhook, by ID. Specify the webhook ID in the webhookId parameter in the URI. 
+Deletes a webhook, by ID. Specify the webhook ID in the webhookID parameter in the URI. 
 
 
 ### Parameters
@@ -70,11 +70,11 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **GetWebhook**
-> Webhook GetWebhook($webhookId)
+> Webhook GetWebhook($webhookID)
 
 Shows details for a webhook, by ID.
 
-Shows details for a webhook, by ID. Specify the webhook ID in the webhookId parameter in the URI. 
+Shows details for a webhook, by ID. Specify the webhook ID in the webhookID parameter in the URI. 
 
 
 ### Parameters
@@ -128,11 +128,11 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **UpdateWebhook**
-> Webhook UpdateWebhook($webhookId, $updateWebhookRequest)
+> Webhook UpdateWebhook($webhookId, $webhookUpdateRequest)
 
 Updates a webhook, by ID.
 
-Updates a webhook, by ID. Specify the webhook ID in the webhookId parameter in the URI. 
+Updates a webhook, by ID. Specify the webhook ID in the webhookID parameter in the URI. 
 
 
 ### Parameters
@@ -140,7 +140,7 @@ Updates a webhook, by ID. Specify the webhook ID in the webhookId parameter in t
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **webhookId** | **string**| Webhook ID. | 
- **updateWebhookRequest** | [**UpdateWebhookRequest**](UpdateWebhookRequest.md)|  | 
+ **webhookUpdateRequest** | [**WebhookUpdateRequest**](WebhookUpdateRequest.md)|  | 
 
 ### Return type
 

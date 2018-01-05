@@ -9,11 +9,11 @@ Method | HTTP request | Description
 
 
 # **GetRole**
-> Role GetRole($roleId)
+> Role GetRole($roleID)
 
 Shows details for a role, by ID.
 
-Shows details for a role, by ID. Specify the role ID in the roleId parameter in the URI. 
+Shows details for a role, by ID. Specify the role ID in the roleID parameter in the URI. 
 
 
 ### Parameters

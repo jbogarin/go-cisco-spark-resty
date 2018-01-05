@@ -40,7 +40,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **DeleteMessage**
-> DeleteMessage($messageId)
+> DeleteMessage($messageID)
 
 Delete a Message.
 
@@ -69,11 +69,11 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **GetMessage**
-> Message GetMessage($messageId)
+> Message GetMessage($messageID)
 
 Shows details for a message, by message ID.
 
-Shows details for a message, by message ID. Specify the message ID in the messageId parameter in the URI. 
+Shows details for a message, by message ID. Specify the message ID in the messageID parameter in the URI. 
 
 
 ### Parameters

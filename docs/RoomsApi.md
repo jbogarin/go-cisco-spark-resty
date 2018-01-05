@@ -16,7 +16,7 @@ Method | HTTP request | Description
 
 Creates a room. The authenticated user is automatically added as a member of the room.
 
-Creates a room. The authenticated user is automatically added as a member of the room. See the Memberships API to learn how to add more people to the room. To create a 1-to-1 room, use the Create Messages endpoint to send a message directly to another person by using the toPersonId or toPersonEmail parameters. 
+Creates a room. The authenticated user is automatically added as a member of the room. See the Memberships API to learn how to add more people to the room. To create a 1-to-1 room, use the Create Messages endpoint to send a message directly to another person by using the toPersonID or toPersonEmail parameters. 
 
 
 ### Parameters
@@ -41,11 +41,11 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **DeleteRoom**
-> DeleteRoom($roomId)
+> DeleteRoom($roomID)
 
 Deletes a room, by ID. Deleted rooms cannot be recovered.
 
-Deletes a room, by ID. Deleted rooms cannot be recovered. Deleting a room that is part of a team will archive the room instead. Specify the room ID in the roomId parameter in the URI 
+Deletes a room, by ID. Deleted rooms cannot be recovered. Deleting a room that is part of a team will archive the room instead. Specify the room ID in the roomID parameter in the URI 
 
 
 ### Parameters
@@ -70,11 +70,11 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **GetRoom**
-> Room GetRoom($roomId)
+> Room GetRoom($roomID)
 
 Shows details for a room, by ID.
 
-Shows details for a room, by ID. The title of the room for 1-to-1 rooms will be the display name of the other person. Specify the room ID in the roomId parameter in the URI. 
+Shows details for a room, by ID. The title of the room for 1-to-1 rooms will be the display name of the other person. Specify the room ID in the roomID parameter in the URI. 
 
 
 ### Parameters
@@ -135,7 +135,7 @@ Name | Type | Description  | Notes
 
 Updates details for a room, by ID.
 
-Updates details for a room, by ID. Specify the room ID in the roomId parameter in the URI. 
+Updates details for a room, by ID. Specify the room ID in the roomID parameter in the URI. 
 
 
 ### Parameters

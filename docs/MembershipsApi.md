@@ -41,11 +41,11 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **DeleteMembership**
-> DeleteMembership($membershipId)
+> DeleteMembership($membershipID)
 
 Deletes a membership by ID.
 
-Deletes a membership by ID. Specify the membership ID in the membershipId URI parameter. 
+Deletes a membership by ID. Specify the membership ID in the membershipID URI parameter. 
 
 
 ### Parameters
@@ -70,11 +70,11 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **GetMembership**
-> Membership GetMembership($membershipId)
+> Membership GetMembership($membershipID)
 
 Get details for a membership by ID.
 
-Get details for a membership by ID. Specify the membership ID in the membershipId URI parameter. 
+Get details for a membership by ID. Specify the membership ID in the membershipID URI parameter. 
 
 
 ### Parameters
@@ -103,7 +103,7 @@ Name | Type | Description  | Notes
 
 Lists all room memberships. By default, lists memberships for rooms to which the authenticated user belongs.
 
-Lists all room memberships. By default, lists memberships for rooms to which the authenticated user belongs. Use query parameters to filter the response. Use roomId to list memberships for a room, by ID. Use either personId or personEmail to filter the results. Long result sets will be split into pages. 
+Lists all room memberships. By default, lists memberships for rooms to which the authenticated user belongs. Use query parameters to filter the response. Use roomID to list memberships for a room, by ID. Use either personID or personEmail to filter the results. Long result sets will be split into pages. 
 
 
 ### Parameters
@@ -135,7 +135,7 @@ Name | Type | Description  | Notes
 
 Updates properties for a membership by ID.
 
-Updates properties for a membership by ID. Specify the membership ID in the membershipId URI parameter. 
+Updates properties for a membership by ID. Specify the membership ID in the membershipID URI parameter. 
 
 
 ### Parameters

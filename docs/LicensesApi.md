@@ -9,11 +9,11 @@ Method | HTTP request | Description
 
 
 # **GetLicense**
-> License GetLicense($licenseId)
+> License GetLicense($licenseID)
 
 Shows details for a license, by ID.
 
-Shows details for a license, by ID. Specify the license ID in the licenseId parameter in the URI. 
+Shows details for a license, by ID. Specify the license ID in the licenseID parameter in the URI. 
 
 
 ### Parameters
@@ -42,7 +42,7 @@ Name | Type | Description  | Notes
 
 List all licenses for a given organization.
 
-List all licenses for a given organization. If no orgId is specified, the default is the organization of the authenticated user. 
+List all licenses for a given organization. If no orgID is specified, the default is the organization of the authenticated user. 
 
 
 ### Parameters
